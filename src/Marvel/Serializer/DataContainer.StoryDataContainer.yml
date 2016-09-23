@@ -1,0 +1,7 @@
+ikoene\Marvel\DataContainer\StoryDataContainer:
+    exclusion_policy: ALL
+    properties:
+        results:
+            expose: true
+            serialized_name: results
+            type: ArrayCollection<ikoene\Marvel\Entity\Story>

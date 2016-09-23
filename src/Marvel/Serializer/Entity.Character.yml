@@ -1,0 +1,47 @@
+ikoene\Marvel\Entity\Character:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+            serialized_name: id
+            type: integer
+        name:
+            expose: true
+            serialized_name: name
+            type: string
+        description:
+            expose: true
+            serialized_name: description
+            type: string
+        modified:
+            expose: true
+            serialized_name: modified
+            type: string
+        resourceURI:
+            expose: true
+            serialized_name: resourceURI
+            type: string
+        urls:
+            expose: true
+            serialized_name: urls
+            type: ArrayCollection<ikoene\Marvel\Entity\Url>
+        thumbnail:
+            expose: true
+            serialized_name: thumbnail
+            type: ikoene\Marvel\Entity\Image
+        comics:
+            expose: true
+            serialized_name: comics
+            type: ikoene\Marvel\Entity\ComicList
+        stories:
+            expose: true
+            serialized_name: stories
+            type: ikoene\Marvel\Entity\StoryList
+        events:
+            expose: true
+            serialized_name: events
+            type: ikoene\Marvel\Entity\EventList
+        series:
+            expose: true
+            serialized_name: series
+            type: ikoene\Marvel\Entity\SeriesList

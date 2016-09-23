@@ -1,0 +1,7 @@
+ikoene\Marvel\DataWrapper\StoryDataWrapper:
+    exclusion_policy: ALL
+    properties:
+        data:
+            expose: true
+            serialized_name: data
+            type: ikoene\Marvel\DataContainer\StoryDataContainer

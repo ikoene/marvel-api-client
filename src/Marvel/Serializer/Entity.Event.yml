@@ -1,0 +1,67 @@
+ikoene\Marvel\Entity\Event:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+            serialized_name: id
+            type: integer
+        title:
+            expose: true
+            serialized_name: title
+            type: string
+        description:
+            expose: true
+            serialized_name: description
+            type: string
+        resourceURI:
+            expose: true
+            serialized_name: resourceURI
+            type: string
+        urls:
+            expose: true
+            serialized_name: urls
+            type: ArrayCollection<ikoene\Marvel\Entity\Url>
+        modified:
+            expose: true
+            serialized_name: modified
+            type: string
+        start:
+            expose: true
+            serialized_name: start
+            type: string
+        end:
+            expose: true
+            serialized_name: end
+            type: string
+        thumbnail:
+            expose: true
+            serialized_name: thumbnail
+            type: ikoene\Marvel\Entity\Image
+        comics:
+            expose: true
+            serialized_name: creators
+            type: ikoene\Marvel\Entity\ComicList
+        stories:
+            expose: true
+            serialized_name: stories
+            type: ikoene\Marvel\Entity\StoryList
+        series:
+            expose: true
+            serialized_name: series
+            type: ikoene\Marvel\Entity\SeriesSummary
+        characters:
+            expose: true
+            serialized_name: characters
+            type: ikoene\Marvel\Entity\CharacterList
+        creators:
+            expose: true
+            serialized_name: creators
+            type: ikoene\Marvel\Entity\CreatorList
+        next:
+            expose: true
+            serialized_name: next
+            type: ikoene\Marvel\Entity\EventSummary
+        previous:
+            expose: true
+            serialized_name: previous
+            type: ikoene\Marvel\Entity\EventSummary
