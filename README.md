@@ -1,5 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/ikoene/marvel-api-client/v/stable)](https://packagist.org/packages/ikoene/marvel-api-client)
 [![Total Downloads](https://poser.pugx.org/ikoene/marvel-api-client/downloads)](https://packagist.org/packages/ikoene/marvel-api-client)
+[![License](https://poser.pugx.org/ikoene/marvel-api-client/license)](https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
+
 
 # Marvel API client
 
