@@ -1,3 +1,6 @@
+[![Latest Stable Version](https://poser.pugx.org/ikoene/marvel-api-client/v/stable)](https://packagist.org/packages/ikoene/marvel-api-client)
+[![Total Downloads](https://poser.pugx.org/ikoene/marvel-api-client/downloads)](https://packagist.org/packages/ikoene/marvel-api-client)
+
 # Marvel API client
 
 The **Marvel Comics API** allows developers everywhere to access information about Marvel's vast library of comics—from what's coming up, to 70 years ago. This **Marvel API client** helps you explore the Marvel universe with great ease.
