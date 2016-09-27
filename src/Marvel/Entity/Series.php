@@ -30,18 +30,18 @@ class Series
     private $description;
 
     /**
-     * The canonical URL identifier for this resource.
-     *
-     * @var string
-     */
-    private $resourceURI;
-
-    /**
      * A set of public web site URLs for the resource.
      *
      * @var array
      */
     private $urls;
+
+    /**
+     * The canonical URL identifier for this resource.
+     *
+     * @var string
+     */
+    private $resourceURI;
 
     /**
      * The first year of publication for the series.
@@ -114,18 +114,18 @@ class Series
     private $creators;
 
     /**
-     * A summary representation of the series which follows this series.
-     *
-     * @var SeriesSummary
-     */
-    private $next;
-
-    /**
      * A summary representation of the series which preceded this series.
      *
      * @var SeriesSummary
      */
     private $previous;
+
+    /**
+     * A summary representation of the series which follows this series.
+     *
+     * @var SeriesSummary
+     */
+    private $next;
 
     /**
      * @return int
@@ -176,22 +176,6 @@ class Series
     }
 
     /**
-     * @return string
-     */
-    public function getResourceURI()
-    {
-        return $this->resourceURI;
-    }
-
-    /**
-     * @param string $resourceURI
-     */
-    public function setResourceURI(string $resourceURI)
-    {
-        $this->resourceURI = $resourceURI;
-    }
-
-    /**
      * @return array
      */
     public function getUrls()
@@ -205,6 +189,22 @@ class Series
     public function setUrls(array $urls)
     {
         $this->urls = $urls;
+    }
+
+    /**
+     * @return string
+     */
+    public function getResourceURI()
+    {
+        return $this->resourceURI;
+    }
+
+    /**
+     * @param string $resourceURI
+     */
+    public function setResourceURI(string $resourceURI)
+    {
+        $this->resourceURI = $resourceURI;
     }
 
     /**
@@ -370,22 +370,6 @@ class Series
     /**
      * @return SeriesSummary
      */
-    public function getNext()
-    {
-        return $this->next;
-    }
-
-    /**
-     * @param SeriesSummary $next
-     */
-    public function setNext(SeriesSummary $next)
-    {
-        $this->next = $next;
-    }
-
-    /**
-     * @return SeriesSummary
-     */
     public function getPrevious()
     {
         return $this->previous;
@@ -397,5 +381,21 @@ class Series
     public function setPrevious(SeriesSummary $previous)
     {
         $this->previous = $previous;
+    }
+
+    /**
+     * @return SeriesSummary
+     */
+    public function getNext()
+    {
+        return $this->next;
+    }
+
+    /**
+     * @param SeriesSummary $next
+     */
+    public function setNext(SeriesSummary $next)
+    {
+        $this->next = $next;
     }
 }
