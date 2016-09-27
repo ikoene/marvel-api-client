@@ -1,18 +1,6 @@
 ikoene\Marvel\Entity\StoryList:
     exclusion_policy: ALL
     properties:
-        available:
-            expose: true
-            serialized_name: available
-            type: integer
-        returned:
-            expose: true
-            serialized_name: returned
-            type: integer
-        collectionURI:
-            expose: true
-            serialized_name: collectionURI
-            type: string
         items:
             expose: true
             serialized_name: items
