@@ -37,18 +37,6 @@ abstract class AbstractDataContainer
     private $count;
 
     /**
-     * Gets one specific result
-     *
-     * @param $key
-     *
-     * @return Character
-     */
-    public function get($key)
-    {
-        return $this->results[$key];
-    }
-
-    /**
      * @return int
      */
     public function getOffset()

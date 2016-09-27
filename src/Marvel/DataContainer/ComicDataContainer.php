@@ -18,6 +18,18 @@ class ComicDataContainer extends AbstractDataContainer
     private $results;
 
     /**
+     * Gets one specific result
+     *
+     * @param $key
+     *
+     * @return Character
+     */
+    public function get($key)
+    {
+        return $this->results[$key];
+    }
+
+    /**
      * @return array
      */
     public function getResults()
