@@ -1,3 +1,4 @@
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/aff00f1f-c4f7-43de-b3c3-b74ecba4f893/mini.png)](https://insight.sensiolabs.com/projects/aff00f1f-c4f7-43de-b3c3-b74ecba4f893)
 [![Latest Stable Version](https://poser.pugx.org/ikoene/marvel-api-client/v/stable)](https://packagist.org/packages/ikoene/marvel-api-client)
 [![Total Downloads](https://poser.pugx.org/ikoene/marvel-api-client/downloads)](https://packagist.org/packages/ikoene/marvel-api-client)
 [![License](https://poser.pugx.org/ikoene/marvel-api-client/license)](https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
