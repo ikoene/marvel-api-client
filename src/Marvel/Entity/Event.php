@@ -93,18 +93,18 @@ class Event
     private $series;
 
     /**
-     * A resource list containing the characters which appear in this event.
-     *
-     * @var CharacterList
-     */
-    private $characters;
-
-    /**
      * A resource list containing creators whose work appears in this event.
      *
      * @var CreatorList
      */
     private $creators;
+
+    /**
+     * A resource list containing the characters which appear in this event.
+     *
+     * @var CharacterList
+     */
+    private $characters;
 
     /**
      * A summary representation of the event which follows this event.
@@ -313,22 +313,6 @@ class Event
     }
 
     /**
-     * @return CharacterList
-     */
-    public function getCharacters()
-    {
-        return $this->characters;
-    }
-
-    /**
-     * @param CharacterList $characters
-     */
-    public function setCharacters(CharacterList $characters)
-    {
-        $this->characters = $characters;
-    }
-
-    /**
      * @return CreatorList
      */
     public function getCreators()
@@ -342,6 +326,22 @@ class Event
     public function setCreators(CreatorList $creators)
     {
         $this->creators = $creators;
+    }
+
+    /**
+     * @return CharacterList
+     */
+    public function getCharacters()
+    {
+        return $this->characters;
+    }
+
+    /**
+     * @param CharacterList $characters
+     */
+    public function setCharacters(CharacterList $characters)
+    {
+        $this->characters = $characters;
     }
 
     /**

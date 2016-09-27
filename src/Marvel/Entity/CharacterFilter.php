@@ -30,13 +30,6 @@ class CharacterFilter
     public $modifiedSince;
 
     /**
-     * Return only characters which appear in the specified comics (accepts a comma-separated list of ids).
-     *
-     * @var int
-     */
-    public $comics;
-
-    /**
      * Return only characters which appear the specified series (accepts a comma-separated list of ids).
      *
      * @var int
@@ -44,11 +37,11 @@ class CharacterFilter
     public $series;
 
     /**
-     * Return only characters which appear in the specified events (accepts a comma-separated list of ids).
+     * Return only characters which appear in the specified comics (accepts a comma-separated list of ids).
      *
      * @var int
      */
-    public $events;
+    public $comics;
 
     /**
      * Return only characters which appear the specified stories (accepts a comma-separated list of ids).
@@ -56,6 +49,13 @@ class CharacterFilter
      * @var int
      */
     public $stories;
+
+    /**
+     * Return only characters which appear in the specified events (accepts a comma-separated list of ids).
+     *
+     * @var int
+     */
+    public $events;
 
     /**
      * Order the result set by a field or fields. Add a "-" to the value sort in descending order.
@@ -130,22 +130,6 @@ class CharacterFilter
     /**
      * @return int
      */
-    public function getComics()
-    {
-        return $this->comics;
-    }
-
-    /**
-     * @param ComicList $comics
-     */
-    public function setComics(ComicList $comics)
-    {
-        $this->comics = $comics;
-    }
-
-    /**
-     * @return int
-     */
     public function getSeries()
     {
         return $this->series;
@@ -162,17 +146,17 @@ class CharacterFilter
     /**
      * @return int
      */
-    public function getEvents()
+    public function getComics()
     {
-        return $this->events;
+        return $this->comics;
     }
 
     /**
-     * @param EventList $events
+     * @param ComicList $comics
      */
-    public function setEvents(EventList $events)
+    public function setComics(ComicList $comics)
     {
-        $this->events = $events;
+        $this->comics = $comics;
     }
 
     /**
@@ -189,6 +173,22 @@ class CharacterFilter
     public function setStories(StoryList $stories)
     {
         $this->stories = $stories;
+    }
+
+    /**
+     * @return int
+     */
+    public function getEvents()
+    {
+        return $this->events;
+    }
+
+    /**
+     * @param EventList $events
+     */
+    public function setEvents(EventList $events)
+    {
+        $this->events = $events;
     }
 
     /**
