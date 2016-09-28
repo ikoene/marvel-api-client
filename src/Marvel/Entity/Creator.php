@@ -81,28 +81,28 @@ class Creator
     /**
      * A resource list containing the series which feature work by this creator.
      *
-     * @var array
+     * @var SeriesList
      */
     private $series;
 
     /**
      * A resource list containing the stories which feature work by this creator.
      *
-     * @var array
+     * @var StoryList
      */
     private $stories;
 
     /**
      * A resource list containing the comics which feature work by this creator.
      *
-     * @var array
+     * @var ComicList
      */
     private $comics;
 
     /**
      * A resource list containing the events which feature work by this creator.
      *
-     * @var array
+     * @var EventList
      */
     private $events;
 

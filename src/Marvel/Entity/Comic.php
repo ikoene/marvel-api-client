@@ -131,7 +131,7 @@ class Comic
     /**
      * A summary representation of the series to which this comic belongs.
      *
-     * @var array
+     * @var SeriesSummary
      */
     private $series;
 
@@ -488,7 +488,7 @@ class Comic
     }
 
     /**
-     * @return array
+     * @return SeriesSummary
      */
     public function getSeries()
     {
@@ -496,9 +496,9 @@ class Comic
     }
 
     /**
-     * @param SeriesList $series
+     * @param SeriesSummary $series
      */
-    public function setSeries(SeriesList $series)
+    public function setSeries(SeriesSummary $series)
     {
         $this->series = $series;
     }

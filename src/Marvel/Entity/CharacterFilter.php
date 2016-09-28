@@ -32,28 +32,28 @@ class CharacterFilter
     /**
      * Return only characters which appear the specified series (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $series;
 
     /**
      * Return only characters which appear in the specified comics (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $comics;
 
     /**
      * Return only characters which appear the specified stories (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $stories;
 
     /**
      * Return only characters which appear in the specified events (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $events;
 
@@ -136,15 +136,15 @@ class CharacterFilter
     }
 
     /**
-     * @param SeriesList $series
+     * @param string $series
      */
-    public function setSeries(SeriesList $series)
+    public function setSeries(string $series)
     {
         $this->series = $series;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getComics()
     {
@@ -152,15 +152,15 @@ class CharacterFilter
     }
 
     /**
-     * @param ComicList $comics
+     * @param string $comics
      */
-    public function setComics(ComicList $comics)
+    public function setComics(string $comics)
     {
         $this->comics = $comics;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getStories()
     {
@@ -168,15 +168,15 @@ class CharacterFilter
     }
 
     /**
-     * @param StoryList $stories
+     * @param string $stories
      */
-    public function setStories(StoryList $stories)
+    public function setStories(string $stories)
     {
         $this->stories = $stories;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getEvents()
     {
@@ -184,9 +184,9 @@ class CharacterFilter
     }
 
     /**
-     * @param EventList $events
+     * @param string $events
      */
-    public function setEvents(EventList $events)
+    public function setEvents(string $events)
     {
         $this->events = $events;
     }

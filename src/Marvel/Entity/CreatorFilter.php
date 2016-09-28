@@ -75,7 +75,7 @@ class CreatorFilter
      * Return only creators who worked on in the specified comics
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $comics;
 
@@ -83,7 +83,7 @@ class CreatorFilter
      * Return only creators who worked on the specified series
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $series;
 
@@ -91,7 +91,7 @@ class CreatorFilter
      * Return only creators who worked on comics that took place in the specified events
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $events;
 
@@ -99,7 +99,7 @@ class CreatorFilter
      * Return only creators who worked on the specified stories
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $stories;
 
@@ -279,15 +279,15 @@ class CreatorFilter
     }
 
     /**
-     * @param ComicList $comics
+     * @param string $comics
      */
-    public function setComics(ComicList $comics)
+    public function setComics(string $comics)
     {
         $this->comics = $comics;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getSeries()
     {
@@ -295,15 +295,15 @@ class CreatorFilter
     }
 
     /**
-     * @param SeriesList $series
+     * @param string $series
      */
-    public function setSeries(SeriesList $series)
+    public function setSeries(string $series)
     {
         $this->series = $series;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getEvents()
     {
@@ -311,15 +311,15 @@ class CreatorFilter
     }
 
     /**
-     * @param EventList $events
+     * @param string $events
      */
-    public function setEvents(EventList $events)
+    public function setEvents(string $events)
     {
         $this->events = $events;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getStories()
     {
@@ -327,9 +327,9 @@ class CreatorFilter
     }
 
     /**
-     * @param StoryList $stories
+     * @param string $stories
      */
-    public function setStories(StoryList $stories)
+    public function setStories(string $stories)
     {
         $this->stories = $stories;
     }

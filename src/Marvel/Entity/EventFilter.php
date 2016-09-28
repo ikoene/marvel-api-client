@@ -33,7 +33,7 @@ class EventFilter
      * Return only events which feature work by the specified creators
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $creators;
 
@@ -41,7 +41,7 @@ class EventFilter
      * Return only events which feature the specified characters
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $characters;
 
@@ -49,7 +49,7 @@ class EventFilter
      * Return only events which are part of the specified series
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $series;
 
@@ -57,7 +57,7 @@ class EventFilter
      * Return only events which take place in the specified comics
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $comics;
 
@@ -65,7 +65,7 @@ class EventFilter
      * Return only events which take place in the specified stories
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $stories;
 
@@ -141,7 +141,7 @@ class EventFilter
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getCreators()
     {
@@ -149,15 +149,15 @@ class EventFilter
     }
 
     /**
-     * @param CreatorList $creators
+     * @param string $creators
      */
-    public function setCreators(CreatorList $creators)
+    public function setCreators(string $creators)
     {
         $this->creators = $creators;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getCharacters()
     {
@@ -165,15 +165,15 @@ class EventFilter
     }
 
     /**
-     * @param CharacterList $characters
+     * @param string $characters
      */
-    public function setCharacters(CharacterList $characters)
+    public function setCharacters(string $characters)
     {
         $this->characters = $characters;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getSeries()
     {
@@ -181,15 +181,15 @@ class EventFilter
     }
 
     /**
-     * @param SeriesList $series
+     * @param string $series
      */
-    public function setSeries(SeriesList $series)
+    public function setSeries(string $series)
     {
         $this->series = $series;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getComics()
     {
@@ -197,15 +197,15 @@ class EventFilter
     }
 
     /**
-     * @param ComicList $comics
+     * @param string $comics
      */
-    public function setComics(ComicList $comics)
+    public function setComics(string $comics)
     {
         $this->comics = $comics;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getStories()
     {
@@ -213,9 +213,9 @@ class EventFilter
     }
 
     /**
-     * @param StoryList $stories
+     * @param string $stories
      */
-    public function setStories(StoryList $stories)
+    public function setStories(string $stories)
     {
         $this->stories = $stories;
     }

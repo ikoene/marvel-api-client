@@ -133,7 +133,7 @@ class ComicFilter
      * Return only comics which feature work by the specified creators
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $creators;
 
@@ -141,7 +141,7 @@ class ComicFilter
      * Return only comics which feature the specified characters
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $characters;
 
@@ -149,7 +149,7 @@ class ComicFilter
      * Return only comics which are part of the specified series
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $series;
 
@@ -157,7 +157,7 @@ class ComicFilter
      * Return only comics which take place in the specified events
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $events;
 
@@ -165,7 +165,7 @@ class ComicFilter
      * Return only comics which contain the specified stories
      * (accepts a comma-separated list of ids).
      *
-     * @var int
+     * @var string
      */
     public $stories;
 
@@ -174,7 +174,7 @@ class ComicFilter
      * (for example in which BOTH Spider-Man and Wolverine appear).
      * Accepts a comma-separated list of ids.
      *
-     * @var int
+     * @var string
      */
     public $sharedAppearances;
 
@@ -183,7 +183,7 @@ class ComicFilter
      * (for example in which BOTH Stan Lee and Jack Kirby did work).
      * Accepts a comma-separated list of ids.
      *
-     * @var int
+     * @var string
      */
     public $collaborators;
 
@@ -333,7 +333,7 @@ class ComicFilter
     /**
      * @param int $startYear
      */
-    public function setStartYear(string $startYear)
+    public function setStartYear(int $startYear)
     {
         $this->startYear = $startYear;
     }
@@ -347,9 +347,9 @@ class ComicFilter
     }
 
     /**
-     * @param float $issueNumber
+     * @param int $issueNumber
      */
-    public function setIssueNumber(float $issueNumber)
+    public function setIssueNumber(int $issueNumber)
     {
         $this->issueNumber = $issueNumber;
     }
@@ -491,15 +491,15 @@ class ComicFilter
     }
 
     /**
-     * @param CreatorList $creators
+     * @param string $creators
      */
-    public function setCreators(CreatorList $creators)
+    public function setCreators(string $creators)
     {
         $this->creators = $creators;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getCharacters()
     {
@@ -507,15 +507,15 @@ class ComicFilter
     }
 
     /**
-     * @param CharacterList $characters
+     * @param string $characters
      */
-    public function setCharacters(CharacterList $characters)
+    public function setCharacters(string $characters)
     {
         $this->characters = $characters;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getSeries()
     {
@@ -523,15 +523,15 @@ class ComicFilter
     }
 
     /**
-     * @param SeriesList $series
+     * @param string $series
      */
-    public function setSeries(SeriesList $series)
+    public function setSeries(string $series)
     {
         $this->series = $series;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getEvents()
     {
@@ -539,15 +539,15 @@ class ComicFilter
     }
 
     /**
-     * @param EventList $events
+     * @param string $events
      */
-    public function setEvents(EventList $events)
+    public function setEvents(string $events)
     {
         $this->events = $events;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getStories()
     {
@@ -555,15 +555,15 @@ class ComicFilter
     }
 
     /**
-     * @param StoryList $stories
+     * @param string $stories
      */
-    public function setStories(StoryList $stories)
+    public function setStories(string $stories)
     {
         $this->stories = $stories;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getSharedAppearances()
     {
@@ -571,15 +571,15 @@ class ComicFilter
     }
 
     /**
-     * @param int $sharedAppearances
+     * @param string $sharedAppearances
      */
-    public function setSharedAppearances(int $sharedAppearances)
+    public function setSharedAppearances(string $sharedAppearances)
     {
         $this->sharedAppearances = $sharedAppearances;
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getCollaborators()
     {
@@ -587,9 +587,9 @@ class ComicFilter
     }
 
     /**
-     * @param int $collaborators
+     * @param string $collaborators
      */
-    public function setCollaborators(int $collaborators)
+    public function setCollaborators(string $collaborators)
     {
         $this->collaborators = $collaborators;
     }
