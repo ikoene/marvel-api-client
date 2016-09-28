@@ -1,5 +1,5 @@
 [![Insight](https://img.shields.io/sensiolabs/i/aff00f1f-c4f7-43de-b3c3-b74ecba4f893.svg)](https://insight.sensiolabs.com/projects/aff00f1f-c4f7-43de-b3c3-b74ecba4f893)
-[![Installs](https://img.shields.io/packagist/dt/ikoene/marvel-api-client.svg)](https://packagist.org/packages/ujiebe/marvel-api-client)
+[![Installs](https://img.shields.io/packagist/dt/ikoene/marvel-api-client.svg)](https://packagist.org/packages/ikoene/marvel-api-client)
 [![Packagist](https://img.shields.io/packagist/v/ikoene/marvel-api-client.svg)](https://packagist.org/packages/ikoene/marvel-api-client)
 [![license](https://img.shields.io/github/license/ikoene/marvel-api-client.svg?maxAge=2592000)]
 (https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
