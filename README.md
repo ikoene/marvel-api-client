@@ -1,7 +1,9 @@
-[![Latest Stable Version](https://poser.pugx.org/ikoene/marvel-api-client/v/stable)](https://packagist.org/packages/ikoene/marvel-api-client)
-[![Total Downloads](https://poser.pugx.org/ikoene/marvel-api-client/downloads)](https://packagist.org/packages/ikoene/marvel-api-client)
-[![License](https://poser.pugx.org/ikoene/marvel-api-client/license)](https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
-
+[![Insight](https://img.shields.io/sensiolabs/i/aff00f1f-c4f7-43de-b3c3-b74ecba4f893.svg)](https://insight.sensiolabs.com/projects/aff00f1f-c4f7-43de-b3c3-b74ecba4f893)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ikoene/Marvel-API-client/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ikoene/Marvel-API-client/?branch=master)
+[![Installs](https://img.shields.io/packagist/dt/ikoene/marvel-api-client.svg)](https://packagist.org/packages/ikoene/marvel-api-client)
+[![Packagist](https://img.shields.io/packagist/v/ikoene/marvel-api-client.svg)](https://packagist.org/packages/ikoene/marvel-api-client)
+[![license](https://img.shields.io/github/license/ikoene/marvel-api-client.svg?maxAge=2592000)]
+(https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
 
 # Marvel API client
 
