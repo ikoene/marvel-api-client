@@ -4,7 +4,6 @@ namespace spec\ikoene\Marvel;
 
 use ikoene\Marvel\Client;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class ClientSpec extends ObjectBehavior
 {
