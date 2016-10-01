@@ -1,0 +1,14 @@
+language: php
+
+matrix:
+  include:
+    - php: 7.1
+
+script:
+  - bin/phpspec run spec
+
+before_install:
+  - composer selfupdate
+
+install:
+  - composer update --no-scripts --no-interaction
