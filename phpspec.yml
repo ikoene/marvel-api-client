@@ -1,0 +1,4 @@
+suites:
+    marvel_suite:
+        namespace: ikoene
+        psr4_prefix: ikoene
