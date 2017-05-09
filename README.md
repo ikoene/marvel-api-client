@@ -3,8 +3,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ikoene/Marvel-API-client/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ikoene/Marvel-API-client/?branch=master)
 [![Installs](https://img.shields.io/packagist/dt/ikoene/marvel-api-client.svg)](https://packagist.org/packages/ikoene/marvel-api-client)
 [![Packagist](https://img.shields.io/packagist/v/ikoene/marvel-api-client.svg)](https://packagist.org/packages/ikoene/marvel-api-client)
-[![license](https://img.shields.io/github/license/ikoene/marvel-api-client.svg?maxAge=2592000)]
-(https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/ikoene/marvel-api-client.svg?maxAge=2592000)](https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
 
 # Marvel API client
 
